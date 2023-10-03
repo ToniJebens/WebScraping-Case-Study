@@ -4,7 +4,7 @@ This is a case study I did when interviewing for TDR Capital (got the internship
 ## Background
 You’re in the market to purchase your first camera.
 A friend has recommended Jessops, an online camera retailer, as a good option to consider.
-Being unfamiliar with cameras you want to better understand the range of cameras offered by jessops_raw, but generally you are interested in Mirrorless, DSLR and compact cameras.
+Being unfamiliar with cameras you want to better understand the range of cameras offered by Jessops, but generally you are interested in Mirrorless, DSLR and compact cameras.
 Beyond the products offered by Jessops, you want to make sure you’re getting the best price in the market so want to compare their product offering with competing retailers.
 
 ## Aims
