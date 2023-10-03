@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 import numpy as np
 
-DATA_DIR = '/Users/toni/Desktop/Portfolio/Camera Case Python/Data'
+DATA_DIR = os.path.join(os.getcwd(), 'Data')
 
 def load_and_clean_data(filename, drop_columns, market_name):
     """Loads CSV, cleans data and adds a Market column."""
@@ -77,7 +77,8 @@ cam_market = pd.concat([jessops, castle, c_world])
 add_product_level_column(cam_market)
 
 # Save combined dataframe
-cam_market.to_csv('/Users/toni/Desktop/Camera Case Study/Data/market_data.csv', index=False)
+file_path = os.path.join(DATA_DIR, 'market_data.csv')
+cam_market.to_csv(file_path, index=False)
 
 # Analysis
 print("Total Jessops products:", len(jessops))
