@@ -1,6 +1,8 @@
-# 📸 Web Scraping Case Study: Camera Price Comparison
+# 🛒 E-Commerce Price Scraper: Digital Camera Market Analysis
 
-This project was completed as part of a data science interview task. The goal was to explore the product and pricing landscape for digital cameras using real-world data scraped from e-commerce websites. [Spoiler: I got the internship]
+A hands-on case study focused on building a scraping and analysis pipeline to compare pricing and inventory across Jessops, Camera World, and Castle Cameras.  
+This project was completed as part of a data science interview task.  
+[Spoiler: I got the internship]
 
 ---
 
