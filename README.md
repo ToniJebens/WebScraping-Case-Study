@@ -1,5 +1,3 @@
-# WebScraping-Case-Study
-
 # 📸 Web Scraping Case Study: Camera Price Comparison
 
 This project was completed as part of a data science interview task. The goal was to explore the product and pricing landscape for digital cameras using real-world data scraped from e-commerce websites.
