@@ -33,6 +33,7 @@ You're in the market to purchase your first camera. A friend recommends Jessops,
 
 ## 🗂️ Project Structure
 
+```python
 WebScraping-Case-Study/
 │
 ├── Scrapers/
@@ -49,7 +50,7 @@ WebScraping-Case-Study/
 │ └── camera_comparison.pdf # Summary of findings (also linked below)
 │
 └── README.md
-
+```
 
 ---
 
