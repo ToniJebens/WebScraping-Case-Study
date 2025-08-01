@@ -1,6 +1,6 @@
 # 📸 Web Scraping Case Study: Camera Price Comparison
 
-This project was completed as part of a data science interview task. The goal was to explore the product and pricing landscape for digital cameras using real-world data scraped from e-commerce websites.
+This project was completed as part of a data science interview task. The goal was to explore the product and pricing landscape for digital cameras using real-world data scraped from e-commerce websites. [Spoiler: I got the internship]
 
 ---
 
@@ -16,7 +16,7 @@ You're in the market to purchase your first camera. A friend recommends Jessops,
 ## 🎯 Objectives
 
 - ✅ Build a web scraper for **Jessops.com** to collect product listings, categories, and prices.
-- ✅ Perform **cross-site price comparison** against other camera retailers (e.g., Currys, Wex).
+- ✅ Perform **cross-site price comparison** against other camera retailers (Castle Cameras, Camera World)
 - ✅ Summarize findings with actionable insights in a presentation format.
 
 ---
@@ -35,17 +35,18 @@ You're in the market to purchase your first camera. A friend recommends Jessops,
 WebScraping-Case-Study/
 │
 ├── Scrapers/
-│ ├── jessops_scraper.py # Main scraper for Jessops product pages
-│ └── currys_scraper.py # Basic competitor scraper (optional)
+│ ├── Jessops.py # Main scraper for Jessops product pages
+│ └── CastleCameras.py
+│ └── CameraWorld.py
 │
 ├── Analysis/
-│ └── compare_prices.ipynb # Analysis of pricing differences
+│ └── Market_Comparison.py # Analysis of pricing differences
 │
 ├── Data/
-│ └── raw_data/ # Collected HTML / JSON / CSV outputs
+│ └── redacted
 │
 ├── Presentation/
-│ └── camera_comparison.pdf # Summary of findings (also linked below)
+│ └── Camera Purchase Case Study AJebens.pdf # Summary of findings (also linked below)
 │
 └── README.md
 ```
@@ -54,9 +55,13 @@ WebScraping-Case-Study/
 
 ## 📊 Summary of Findings
 
-- Jessops carries a broad range of entry- to mid-level Mirrorless and DSLR cameras.
-- Prices were on average **4–8% higher** than competitors (depending on product category).
-- Some exclusive bundle deals offset price differences — not always comparable 1-to-1.
+- **Jessops is generally more expensive**, though price differences depend on the camera segment.  
+- **Retailer positioning differs**: Jessops carries more high-end models, while Camera World and Castle Cameras offer broader mid- to low-range options.  
+- For **Mirrorless and DSLR**, Jessops is competitive:
+  - Competitors did **not consistently beat Jessops on price**
+  - Product ranges were **well-aligned** across sites
+- For **Compact cameras**, **Camera World had the largest inventory**.
+- 📌 **Recommendation**: Pick your desired model first, then compare listing and bundle deals across retailers.
 
 📥 **Presentation Deck**:  
 [Camera Price Comparison – Slides (Google Drive)](https://drive.google.com/file/d/1Uz_V7RUZNYn5lq0x1lrRTn2dlCopDwao/view?usp=sharing)
@@ -65,12 +70,9 @@ WebScraping-Case-Study/
 
 ## 💡 Key Learnings
 
-- Designed a targeted, multi-page scraper with pagination and data extraction logic.
-- Performed price benchmarking and exploratory data analysis.
-- Communicated results with business context and recommendations.
-
+- Built a structured scraping pipeline with pagination, product-level extraction, and data consolidation.
+- Applied fuzzy matching to remove duplicates and standardize product listings across formats.
+- Cleaned and aligned datasets from multiple retailers for fair price and range comparisons.
+- Presented actionable insights through a compact slide deck, balancing technical findings with consumer relevance.
 ---
 
-## 📄 License
-
-MIT — open for reuse, learning, and feedback.
