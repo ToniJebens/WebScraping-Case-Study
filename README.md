@@ -10,3 +10,5 @@ Beyond the products offered by Jessops, you want to make sure you’re getting t
 1. Build a scraper for Jessops to understand their range of products and price
 2. Make a comparison of Jessops prices and products relative to their competition 
 3. Present your findings in a few slides 
+
+The presentation deck can be found here: https://drive.google.com/file/d/1Uz_V7RUZNYn5lq0x1lrRTn2dlCopDwao/view?usp=sharing
